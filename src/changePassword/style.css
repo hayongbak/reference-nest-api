@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: #1e1f20;
+}
+
+.logo {
+    background-image: url(gaimer-logo.png);
+    height: 80px;
+    width: 50vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 700px;
+    background-color: #613BFF;
+}
+
+.d-flex-fd-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field{
+    height: 40px;
+    border: 2px solid rgba(143, 146, 161, 0.2);
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #613BFF;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    height: 50px;
+    width: 5rem;
+}
+
+.label{
+    color: #1E1F20;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}

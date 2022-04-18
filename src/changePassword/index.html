@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaimer - Change your Password</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div style="display: flex; justify-content: center; margin-top: 5rem;">
+        <div style="background-color: #FFFFFF; max-width: 700px;">
+            <div style="padding: 10px 0; background-color: #613BFF;">
+                <div class="logo"></div>
+            </div>
+            <div class="d-flex-fd-col" style="padding: 25px 30px;">
+                <div id="formWrapper">
+                    <h2 style="margin: 15px 0px 40px 0; font-weight: 600;">Change your Passwort</h2>
+                    <div class="d-flex-fd-col">
+                        <label class="label" for="newPassword">New Password</label>
+                        <input onblur="checkNewPasswort()" class="input-field" type="password" name="newPassword"
+                            id="newPassword">
+                        <p id="newPasswordError" style="color: red;"></p>
+                    </div>
+                    <div class="d-flex-fd-col">
+                        <label class="label" for="confirmNewPassword">Confrim New Password</label>
+                        <input onblur="checkConfirmNewPasswort()" class="input-field" type="password"
+                            name="confirmNewPassword" id="confirmNewPassword">
+                        <p id="confirmNewPasswordError" style="color: red;"></p>
+                    </div>
+                    <div style="text-align: center; margin: 25px 0;">
+                        <button onclick="sendNewPasswords()" class="btn" type="click">Save</button>
+                    </div>
+
+                </div>
+                <div style="display: none; margin: 168px 0px; text-align: center;" id="successWrapper">
+                    <h2 style="margin: 15px 0px 40px 0; font-weight: 600;">Your Password is successfull changed.</h2>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+
+</html>

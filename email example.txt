@@ -1,0 +1,14 @@
+From:dm@gaimer.dev
+To:diedrikdm@hotmail.com
+Subject:Reset password
+Content-Type:text/html
+<html>
+<head></head>
+<body>
+<p>
+Hi DoubleDea<br />
+Please click on the following link https://youtu.be/ to reset your password. <br /><br />
+If you did not request this, please ignore this email and your password will remain unchanged.<br />
+</p>
+</body>
+</html>
